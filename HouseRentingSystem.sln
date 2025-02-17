@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 		.gitignore = .gitignore
 		.github\workflows\staging_workflow.yml = .github\workflows\staging_workflow.yml
 		.github\workflows\develop_workflow.yml = .github\workflows\develop_workflow.yml
+		Jenkinsfile = Jenkinsfile
 	EndProjectSection
 EndProject
 Global
