@@ -9,7 +9,7 @@ pipeline {
 
 		stage('Restore dependencies') {
 			steps {
-				bat 'dotnet restore'
+                    bat 'dotnet restore'
             }
         }
 
@@ -19,7 +19,7 @@ pipeline {
             }
         }
 
-        stage('Test ') {
+        stage('Test') {
 			steps {
 				bat 'dotnet test --no-build --verbosity normal'
             }
