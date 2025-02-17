@@ -14,6 +14,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{04738931-BC44-417B-800D-0ACB52E95C39}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.github\workflows\staging_workflow.yml = .github\workflows\staging_workflow.yml
+		.github\workflows\develop_workflow.yml = .github\workflows\develop_workflow.yml
 	EndProjectSection
 EndProject
 Global
