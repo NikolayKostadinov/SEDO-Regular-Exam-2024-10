@@ -11,6 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.UnitTests", "HouseRentingSystem.UnitTests\HouseRentingSystem.UnitTests.csproj", "{4156FAD4-E62E-4C6C-8F95-0F0B1BC57C29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{04738931-BC44-417B-800D-0ACB52E95C39}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\staging_workflow.yml = .github\workflows\staging_workflow.yml
+		.github\workflows\develop_workflow.yml = .github\workflows\develop_workflow.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
